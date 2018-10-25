@@ -5,7 +5,7 @@ var input = [
 ];
 // console.log(input)
 var result = input.map(function(obj){
-  var inputNums = (obj.x * obj.x + obj.y * obj.y);
+  var inputNums = (Math.pow(obj.x, 2) + Math.pow(obj.y, 2));
   var roots = (Math.sqrt(inputNums));
   return roots
   // var rObj ={};
